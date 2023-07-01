@@ -49,7 +49,9 @@ Ensure that you have Python installed on your machine. If not, you can download 
 
 1.  Install Uvicorn, an ASGI server used to serve the FastAPI application, using pip (Python's package installer):
 
-    pip install uvicorn
+   ```
+pip install uvicorn
+```
 
 2.  Clone the repository or download the source code.
     
@@ -57,7 +59,9 @@ Ensure that you have Python installed on your machine. If not, you can download 
     
 4.  Run the application using Uvicorn:
 
-    uvicorn main:app --reload
+ ```
+uvicorn main:app --reload
+```
 
 This command starts the Uvicorn server with the application, the `--reload` flag enables hot reloading, which means the server will automatically update as you make changes to the source code.
 
